@@ -14,3 +14,20 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//ruta estatica
+// /hola => 'hola !' GET
+Route::get('/hola/mundo',function(){
+	return	'Hola !';
+});
+
+
+//ruta dinamica
+// /hola/<nombre> => 'hola <nombre>' GET
+Route::get('/hola/{nombre}',function($nombre){
+	return	"Hola {$nombre}!";
+});
+
+
+//ruta a controller
+Route::get('/chao/{nombre}', 'HolaController@chao');
