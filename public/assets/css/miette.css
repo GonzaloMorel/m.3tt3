@@ -1,0 +1,43 @@
+/* miette estilos */
+
+#topNav{
+	padding:10px !important;
+}
+
+.menta_miette_letra{
+	color:#47b9b2 !important;
+
+}
+
+.made_with_love{
+	width: 600px;
+}
+
+
+.swiper-pagination-bullet-active{
+	background-color: #47b9b2 !important;
+}
+
+section.miette_cafe.page-header {
+    color: #87cbc9;
+    background-color: #3f2a2e;
+}
+
+section.miette_menta.page-header {
+    color: #3f2a2e;
+    background-color: #47b9b2;
+}
+
+section.miette_menta_claro.page-header {
+    color: #3f2a2e;
+    background-color: #87cbc9;
+}
+
+
+.footer-logo{
+	height: 60px !important;
+}
+
+#footer{
+	background: linear-gradient(to bottom, #47b9b2 0%,#87cbc9 100%);
+}
