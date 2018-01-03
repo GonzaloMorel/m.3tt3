@@ -12,6 +12,11 @@
 */
 
 Route::get('/', function () {
+    return view('trabajando');
+});
+
+Route::get('/miette', function () {
+	//return("holamiette");
     return view('home');
 });
 
